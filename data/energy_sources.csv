@@ -1,0 +1,13 @@
+sourcename,renewable,emissionfactor,unit
+Biomass,TRUE,45,(gCO2e/kWh)
+Hydropower,TRUE,24,(gCO2e/kWh)
+Offshore Wind,TRUE,12,(gCO2e/kWh)
+Onshore Wind,TRUE,11,(gCO2e/kWh)
+Photovoltaic (Solar Power),TRUE,48,(gCO2e/kWh)
+Other Renewables,TRUE,10,(gCO2e/kWh)
+Nuclear Energy,FALSE,12,(gCO2e/kWh)
+Lignite (Brown Coal),FALSE,1050,(gCO2e/kWh)
+Hard Coal,FALSE,820,(gCO2e/kWh)
+Natural Gas,FALSE,490,(gCO2e/kWh)
+Pumped Storage,TRUE,4,(gCO2e/kWh)
+Other Conventional,FALSE,900,(gCO2e/kWh)

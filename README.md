@@ -1,2 +1,38 @@
-# product_footprint
-Source code for a Docker-based micro-services application designed to facilitate the calculation of product carbon footprints for manufacturing companies. This application aims to provide a scalable and efficient solution for assessing the environmental impact of manufacturing processes.
+# Docker-Based Micro-Services Application for Product Carbon Footprint Calculation
+
+This repository hosts the source code for a Docker-based micro-services application designed to facilitate the calculation of product carbon footprints for manufacturing companies. Developed as an artifact for the paper "Docker-Based Micro-Services Application for Product Carbon Footprint Calculation in Manufacturing Companies," this application aims to provide a scalable and efficient solution for assessing the environmental impact of manufacturing processes.
+
+*Key Features:*
+
+- Microservices Architecture: Utilizes a modular architecture with Docker containers for scalability and ease of deployment.
+
+- Database Integration: Implements a database schema to store product and material information essential for carbon footprint calculation.
+
+- Calculation Algorithms: Incorporates algorithms to compute carbon footprints based on material, energy and transport emissions..
+
+- User Interface: Provides a user-friendly interface for interacting with the application and viewing carbon footprint results.
+
+- Documentation: Includes comprehensive documentation outlining the methodology, setup instructions, and usage guidelines.
+
+*Contributing:*
+
+Contributions to this project are welcome! Whether you're interested in adding new features, fixing bugs, or improving documentation, feel free to fork the repository and submit pull requests. Please refer to the contribution guidelines for more information.
+
+For more information, please refer to the documentation and the referenced paper.
+
+## Building the Project
+Make sure you have Docker installed
+
+After cloning the repository, run: docker-compose build and then docker-compose up.
+
+This should build the images for the database, dashboard and website (platform). 
+
+You can access the website at localhost port 4200.
+
+### Typical Error
+
+If you encounter the error:
+"Inlining of fonts failed. An error has occurred while retrieving https://fonts.googleapis.com/icon?family=Material+Icons over the internet.
+getaddrinfo EAI_AGAIN fonts.googleapis.com"
+
+Just run docker-compose build again.

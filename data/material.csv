@@ -1,0 +1,41 @@
+material,emissionfactor,factorunit,datasource,datadate
+Cast Iron,2.7,kgCO2/kg,ecoinvent,01/05/2023
+Steel,1.85,kgCO2/kg,ecoinvent,01/05/2023
+Plastic,3.0,kgCO2/kg,ecoinvent,01/05/2023
+Electronics,5.5,kgCO2/kg,ecoinvent,01/05/2023
+Cables,4.2,kgCO2/kg,ecoinvent,01/05/2023
+Polybutadine,2.5,kgCO2/kg,ecoinvent,01/05/2023
+Glass Fiber,1.2,kgCO2/kg,ecoinvent,01/05/2023
+Aluminum,8.0,kgCO2/kg,ecoinvent,01/05/2023
+Leather,9.5,kgCO2/kg,ecoinvent,01/05/2023
+Carbon Fiber,20.0,kgCO2/kg,ecoinvent,01/05/2023
+Stainless Steel,6.1,kgCO2/kg,ecoinvent,01/05/2023
+Copper,3.7,kgCO2/kg,ecoinvent,01/05/2023
+Silicon,14.0,kgCO2/kg,ecoinvent,01/05/2023
+Gold,23.0,kgCO2/kg,ecoinvent,01/05/2023
+Lithium,15.0,kgCO2/kg,ecoinvent,01/05/2023
+Lead,2.1,kgCO2/kg,ecoinvent,01/05/2023
+Tin,7.5,kgCO2/kg,ecoinvent,01/05/2023
+Neodymium,50.0,kgCO2/kg,ecoinvent,01/05/2023
+Nickel,9.0,kgCO2/kg,ecoinvent,01/05/2023
+Zinc,2.7,kgCO2/kg,ecoinvent,01/05/2023
+Platinum,1.85,kgCO2/kg,ecoinvent,01/05/2023
+Palladium,3.0,kgCO2/kg,ecoinvent,01/05/2023
+Tungsten,5.5,kgCO2/kg,ecoinvent,01/05/2023
+Magnesium,4.2,kgCO2/kg,ecoinvent,01/05/2023
+Titanium,2.5,kgCO2/kg,ecoinvent,01/05/2023
+Graphite,1.2,kgCO2/kg,ecoinvent,01/05/2023
+Rubber,8.0,kgCO2/kg,ecoinvent,01/05/2023
+Polyethylene,9.5,kgCO2/kg,ecoinvent,01/05/2023
+Polypropylene,20.0,kgCO2/kg,ecoinvent,01/05/2023
+Polyvinyl Chloride (PVC),6.1,kgCO2/kg,ecoinvent,01/05/2023
+Acrylic,3.7,kgCO2/kg,ecoinvent,01/05/2023
+Polystyrene,14.0,kgCO2/kg,ecoinvent,01/05/2023
+Polycarbonate,23.0,kgCO2/kg,ecoinvent,01/05/2023
+Fiberglass,15.0,kgCO2/kg,ecoinvent,01/05/2023
+Chromium,2.1,kgCO2/kg,ecoinvent,01/05/2023
+Manganese,7.5,kgCO2/kg,ecoinvent,01/05/2023
+Bismuth,50.0,kgCO2/kg,ecoinvent,01/05/2023
+Cobalt,9.0,kgCO2/kg,ecoinvent,01/05/2023
+Molybdenum,9.0,kgCO2/kg,ecoinvent,01/05/2023
+Transport,0.0535,kgCO2/tkm,ProBas,01/01/2020
