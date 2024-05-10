@@ -14,6 +14,8 @@ This repository hosts the source code for a Docker-based micro-services applicat
 
 - Documentation: Includes comprehensive documentation outlining the methodology, setup instructions, and usage guidelines.
 
+- Regulatory Compliance: Designed to comply with regulations such as the Corporate Sustainability Reporting Directive (CSRD), ISO 14067, ISO14040 and other relevant standards.
+
 *Contributing:*
 
 Contributions to this project are welcome! Whether you're interested in adding new features, fixing bugs, or improving documentation, feel free to fork the repository and submit pull requests. Please refer to the contribution guidelines for more information.
@@ -27,7 +29,9 @@ Make sure you have Docker installed
 
 After cloning the repository, run: 
 
-`docker-compose build` and then
+`docker-compose build` 
+
+then
 
 `docker-compose up`.
 
