@@ -20,14 +20,39 @@ Contributions to this project are welcome! Whether you're interested in adding n
 
 For more information, please refer to the documentation and the referenced paper.
 
-## Building the Project
+## Usage Guidelines
+
+### Building the Project - Example Use Case
 Make sure you have Docker installed
 
-After cloning the repository, run: docker-compose build and then docker-compose up.
+After cloning the repository, run: 
+
+`docker-compose build` and then
+
+`docker-compose up`.
 
 This should build the images for the database, dashboard and website (platform). 
 
 You can access the website at localhost port 4200.
+
+It may not be necessary, but if you need to access the database and dashboard, the credentials are included in the docker-compose.yml.
+
+### Building your own example
+
+Before building and running, populate the tables in _./data_ with your own data. 
+
+- Download the appropiate energy generation data from *https://www.smard.de/* and save it in energy_smard.csv.
+- Adjust the emission factors for the materials using ProBas, Ecoinvent or similar databases. In our case, we used Ecoinvent.
+
+Make sure not to alter the table structure. The application will create the database using your data
+
+Run `docker-compose build`
+
+Then `docker-compose up`.
+
+The application will read the data from the database and create the respective dashboards and website.
+
+Access them also at localhost port 4200.
 
 ### Typical Error
 
