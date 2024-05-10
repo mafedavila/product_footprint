@@ -54,6 +54,10 @@ The application will read the data from the database and create the respective d
 
 Access them also at localhost port 4200.
 
+![Alt text](img/website-methodology.png)
+
+![Alt text](img/website-dashboard.png)
+
 ### Typical Error
 
 If you encounter the error:
