@@ -55,12 +55,12 @@ services:
 
   angular:
     build:
-      context: ./website
+      context: ./platform
       dockerfile: Dockerfile  
     ports:
-      - "4200:80"  
+      - "4200:4200"  
     volumes:
-      - ./website:/usr/src/app  
+      - ./platform:/usr/src/app  
     depends_on:
       - grafana
 

@@ -30,7 +30,7 @@ CREATE TABLE "material" (
     "emissionfactor" double precision   NOT NULL,
     "factorunit" varchar(20)   NOT NULL,
     "datasource" varchar(200)   NOT NULL,
-    "datadate" timestamp   NOT NULL,
+    "datadate" int   NOT NULL,
     CONSTRAINT "pk_material" PRIMARY KEY (
         "material"
      )
