@@ -54,4 +54,4 @@ Access them also at localhost port 4200.
 
 ![Alt text](img/website-methodology.png)
 
-![Alt text](img/website-methodology.png)
+![Alt text](img/website-dashboard.png)
