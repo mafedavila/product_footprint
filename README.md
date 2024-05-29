@@ -29,11 +29,7 @@ Make sure you have Docker installed
 
 After cloning the repository, run: 
 
-`docker-compose build` 
-
-then
-
-`docker-compose up`.
+`docker-compose up --build` 
 
 This should build the images for the database, dashboard and website (platform). 
 
@@ -50,9 +46,7 @@ Before building and running, populate the tables in _./data_ with your own data.
 
 Make sure not to alter the table structure. The application will create the database using your data
 
-Run `docker-compose build`
-
-Then `docker-compose up`.
+Run `docker-compose up --build`
 
 The application will read the data from the database and create the respective dashboards and website.
 
@@ -60,12 +54,4 @@ Access them also at localhost port 4200.
 
 ![Alt text](img/website-methodology.png)
 
-![Alt text](img/website-dashboard.png)
-
-### Typical Error
-
-If you encounter the error:
-"Inlining of fonts failed. An error has occurred while retrieving https://fonts.googleapis.com/icon?family=Material+Icons over the internet.
-getaddrinfo EAI_AGAIN fonts.googleapis.com"
-
-Just run docker-compose build again.
+![Alt text](img/website-methodology.png)
