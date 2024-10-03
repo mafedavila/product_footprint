@@ -1,6 +1,6 @@
-# Container-Based Micro-Services Application for Product Carbon Footprint Calculation
+# Container-Based MicroServices Application for Product Carbon Footprint Calculation
 
-This repository hosts the source code for a Container-based micro-services application designed to facilitate the calculation of product carbon footprints for manufacturing companies. Developed as an artifact for the paper "Container-Based Micro-Services Application for Product Carbon Footprint Calculation in Manufacturing Companies," this application aims to provide a scalable and efficient solution for assessing the environmental impact of manufacturing processes.
+This repository hosts the source code for a Container-based microservices application designed to facilitate the calculation of product carbon footprints for manufacturing companies. Developed as an artifact for the paper "Container-Based Microservices Application for Product Carbon Footprint Calculation in Manufacturing Companies," this application aims to provide a scalable and efficient solution for assessing the environmental impact of manufacturing processes.
 
 *Key Features:*
 
